@@ -30,7 +30,7 @@ attr_accessor :first_name, :last_name
   end
 
   def add_review(restaurant, content, rating)
-    Review.new(self, restaurant, content.to_s, rating)
+    Review.new(self, restaurant, content, rating)
   end
 
   #helper method
